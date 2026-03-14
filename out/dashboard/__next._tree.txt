@@ -1,8 +1,0 @@
-:HL["/inipa-marketing/_next/static/chunks/57d983a363b9ae04.css","style"]
-:HL["/inipa-marketing/_next/static/chunks/d90d0cda6aafd688.css","style"]
-:HL["/inipa-marketing/_next/static/media/051742360c26797e-s.p.102b7f24.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/inipa-marketing/_next/static/media/feb57b2dc8f29018-s.p.2539f70a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/inipa-marketing/_next/static/chunks/fd7321ad0aa4fbf3.css","style"]
-:HL["/inipa-marketing/_next/static/chunks/9a0e280081037c33.css","style"]
-:HL["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css","style"]
-0:{"buildId":"IEi1xO8nTuqyFWFlR07dP","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"dashboard","paramType":null,"paramKey":"dashboard","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,32545,t=>{"use strict";var e=t.i(43476);t.s(["default",0,()=>(0,e.jsx)("div",{className:"p-6",children:(0,e.jsx)("h2",{className:"text-xl font-bold text-white mb-6",children:"系统配置"})})])}]);
