@@ -20,7 +20,7 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
   const [locale, setLocale] = useState<Locale>('zh');
 
   const t = (key: string): string => {
-    return translations[locale][key] || key;
+    return translations[locale][key as keyof typeof translations[typeof locale]] || key;
   };
 
   return (

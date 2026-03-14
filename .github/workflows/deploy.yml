@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
@@ -23,12 +23,10 @@ jobs:
         with:
           node-version: "20"
       - run: npm ci
-        working-directory: ./inipa-marketing
       - run: npm run build
-        working-directory: ./inipa-marketing
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./inipa-marketing/out
+          path: ./out
 
   deploy:
     environment:
