@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/inipa-marketing',
+  trailingSlash: true,
 };
 
 export default nextConfig;
