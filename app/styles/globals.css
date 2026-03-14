@@ -1,0 +1,143 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 主题变量 */
+[data-theme="gold"] {
+  --bg-deep: #050403;
+  --bg-panel: #110E0B;
+  --bg-card: #1A1612;
+  --bg-hover: rgba(212, 168, 85, 0.08);
+  --border-color: #2A2317;
+  --primary: #D4A855;
+  --primary-dim: #8C6F38;
+  --primary-glow: rgba(212, 168, 85, 0.3);
+  --text-main: #EAEAEA;
+  --text-muted: #8B7355;
+  --accent-green: #10B981;
+  --accent-red: #EF4444;
+  --accent-blue: #3B82F6;
+  --ai-purple: #9333EA;
+}
+
+[data-theme="blue"] {
+  --bg-deep: #0A0E1A;
+  --bg-panel: #0F1419;
+  --bg-card: #1A1F2E;
+  --bg-hover: rgba(59, 130, 246, 0.08);
+  --border-color: #1E293B;
+  --primary: #3B82F6;
+  --primary-dim: #1E40AF;
+  --primary-glow: rgba(59, 130, 246, 0.3);
+  --text-main: #E2E8F0;
+  --text-muted: #64748B;
+  --accent-green: #10B981;
+  --accent-red: #EF4444;
+  --accent-blue: #60A5FA;
+  --ai-purple: #A78BFA;
+}
+
+[data-theme="light"] {
+  --bg-deep: #F8FAFC;
+  --bg-panel: #FFFFFF;
+  --bg-card: #F1F5F9;
+  --bg-hover: rgba(59, 130, 246, 0.08);
+  --border-color: #E2E8F0;
+  --primary: #3B82F6;
+  --primary-dim: #1E40AF;
+  --primary-glow: rgba(59, 130, 246, 0.3);
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --accent-green: #10B981;
+  --accent-red: #EF4444;
+  --accent-blue: #3B82F6;
+  --ai-purple: #9333EA;
+}
+
+/* 全局样式 */
+body {
+  background: var(--bg-deep);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 字体样式 */
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dim);
+}
+
+/* Ant Design 全局样式覆盖 */
+.ant-select-selector {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+.ant-select-arrow {
+  color: var(--text-muted) !important;
+}
+
+.ant-select-dropdown {
+  background: var(--bg-card) !important;
+}
+
+.ant-select-item {
+  color: var(--text-main) !important;
+}
+
+.ant-select-item-option-selected {
+  background: var(--bg-hover) !important;
+}
+
+.ant-select-item-option-active {
+  background: var(--bg-hover) !important;
+}
+
+.ant-card {
+  background: var(--bg-panel) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.ant-card-head {
+  color: var(--text-main) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.ant-card-body {
+  color: var(--text-main) !important;
+}
+
+.ant-switch {
+  background: #4B5563 !important;
+}
+
+.ant-switch-checked {
+  background: var(--accent-green) !important;
+}

@@ -1,0 +1,21 @@
+/* AI Lab 页面专用样式 */
+
+/* Category Card */
+.categoryCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.categoryCard:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.categoryCard.active {
+  border-color: var(--primary);
+  background: var(--bg-hover);
+}
